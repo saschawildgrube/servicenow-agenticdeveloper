@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_tool_m2m">
+    <sn_aia_agent_tool_m2m action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent display_value="Agentic Developer">6cb312db93e06610af77b4aa6aba10b5</agent>
+        <description>Sets the given backlog items state to "Draft / Need more info".</description>
+        <display_output>false</display_output>
+        <document_status/>
+        <execution_mode>autopilot</execution_mode>
+        <inputs>[{"name":"backlog_item","value":"","description":"Sys Id or number of a nacklog item"}]</inputs>
+        <max_auto_executions>10</max_auto_executions>
+        <name>Set Backlog Item State To Draft</name>
+        <output_transformation_strategy>paraphrase</output_transformation_strategy>
+        <post_processing_script/>
+        <pre_message/>
+        <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>
+        <sys_created_by>sascha.wildgrube</sys_created_by>
+        <sys_created_on>2025-04-06 19:37:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>241f2d7493bcaa10af77b4aa6aba103c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Backlog Item State To Draft</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
+        <sys_update_name>sn_aia_agent_tool_m2m_241f2d7493bcaa10af77b4aa6aba103c</sys_update_name>
+        <sys_updated_by>sascha.wildgrube</sys_updated_by>
+        <sys_updated_on>2025-04-06 19:37:48</sys_updated_on>
+        <tool display_value="Set Backlog Item State To Draft">2c1f2d7493bcaa10af77b4aa6aba1036</tool>
+        <tool_attributes/>
+        <transformation_instructions/>
+    </sn_aia_agent_tool_m2m>
+</record_update>

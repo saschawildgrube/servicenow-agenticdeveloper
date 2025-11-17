@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_team">
+    <sn_aia_team action="INSERT_OR_UPDATE">
+        <description>Implements a backlog item according to its description</description>
+        <name>Implement backlog item</name>
+        <sys_class_name>sn_aia_team</sys_class_name>
+        <sys_created_by>sascha.wildgrube</sys_created_by>
+        <sys_created_on>2025-04-07 07:26:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>125110c99338ea10af77b4aa6aba1039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Implement backlog item</sys_name>
+        <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
+        <sys_update_name>sn_aia_team_125110c99338ea10af77b4aa6aba1039</sys_update_name>
+        <sys_updated_by>sascha.wildgrube</sys_updated_by>
+        <sys_updated_on>2025-04-07 07:26:48</sys_updated_on>
+    </sn_aia_team>
+</record_update>

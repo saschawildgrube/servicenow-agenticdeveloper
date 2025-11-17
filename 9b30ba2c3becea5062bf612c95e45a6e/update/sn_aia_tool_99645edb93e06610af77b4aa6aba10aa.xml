@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_tool">
+    <sn_aia_tool action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Retrieves the Definiton of Done relevant for a given backlog item</description>
+        <input_schema>[{"name":"backlog_item","description":"Number or Sys Id of a backlog item"}]</input_schema>
+        <name>Get Definiton of Done</name>
+        <record_type/>
+        <script><![CDATA[(function(inputs) {
+
+	return AiToolGetBacklog(inputs.backlog_item);
+
+})(inputs);]]></script>
+        <sys_class_name>sn_aia_tool</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-02 06:29:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>99645edb93e06610af77b4aa6aba10aa</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Get Definiton of Done</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
+        <sys_update_name>sn_aia_tool_99645edb93e06610af77b4aa6aba10aa</sys_update_name>
+        <sys_updated_by>sascha.wildgrube</sys_updated_by>
+        <sys_updated_on>2025-04-06 19:45:11</sys_updated_on>
+        <target_document/>
+        <target_document_table/>
+        <type>script</type>
+    </sn_aia_tool>
+</record_update>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_tool_m2m">
+    <sn_aia_agent_tool_m2m action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent display_value="Agentic Developer">6cb312db93e06610af77b4aa6aba10b5</agent>
+        <description>Retrieves the Definiton of Done relevant for a given backlog item</description>
+        <display_output>false</display_output>
+        <document_status/>
+        <execution_mode>autopilot</execution_mode>
+        <inputs>[{"name":"backlog_item","value":"","description":"Number or Sys Id of a backlog item"}]</inputs>
+        <max_auto_executions>10</max_auto_executions>
+        <name>Get Definiton of Done</name>
+        <output_transformation_strategy>paraphrase</output_transformation_strategy>
+        <post_processing_script/>
+        <pre_message/>
+        <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-02 06:29:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d1645edb93e06610af77b4aa6aba10ad</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get Definiton of Done</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
+        <sys_update_name>sn_aia_agent_tool_m2m_d1645edb93e06610af77b4aa6aba10ad</sys_update_name>
+        <sys_updated_by>sascha.wildgrube</sys_updated_by>
+        <sys_updated_on>2025-04-04 14:54:14</sys_updated_on>
+        <tool display_value="Get Definiton of Done">99645edb93e06610af77b4aa6aba10aa</tool>
+        <tool_attributes/>
+        <transformation_instructions/>
+    </sn_aia_agent_tool_m2m>
+</record_update>

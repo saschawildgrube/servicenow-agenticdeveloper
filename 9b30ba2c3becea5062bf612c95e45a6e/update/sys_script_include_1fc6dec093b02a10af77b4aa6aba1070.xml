@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_agenticdev.IsAgileAppInstalled</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Returns true if the Agile app is installed.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>IsAgileAppInstalled</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[function IsAgileAppInstalled()
+{
+	return x_snc_devtools.IsValidRecord(x_snc_devtools.GetAppRecord('x_snc_agile'));
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sascha.wildgrube</sys_created_by>
+        <sys_created_on>2025-04-04 14:36:45</sys_created_on>
+        <sys_id>1fc6dec093b02a10af77b4aa6aba1070</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IsAgileAppInstalled</sys_name>
+        <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
+        <sys_update_name>sys_script_include_1fc6dec093b02a10af77b4aa6aba1070</sys_update_name>
+        <sys_updated_by>sascha.wildgrube</sys_updated_by>
+        <sys_updated_on>2025-04-04 14:36:45</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
+    </sys_script_include>
+</record_update>

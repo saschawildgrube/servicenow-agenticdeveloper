@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_agenticdev.AiToolGetBacklogItemDetails</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Retrieves all relevant details about a backlog item</description>
+        <mobile_callable>false</mobile_callable>
+        <name>AiToolGetBacklogItemDetails</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[function AiToolGetBacklogItemDetails(vBacklogItem)
+{
+	var GetStringValue = x_snc_devtools.GetStringValue;
+	var Clone = x_snc_devtools.Clone;
+	var GetArrayValue = x_snc_devtools.GetArrayValue;
+	var GetRecord = x_snc_devtools.GetRecord;
+
+	var strInput = GetStringValue(vBacklogItem);
+	if (strInput == '')
+	{
+		return {};
+	}
+
+	if (IsAgileAppInstalled() == true)
+	{
+		var grBacklogItem = x_snc_agile.GetBacklogItemRecord(strInput);
+		if (grBacklogItem != false)
+		{
+			var backlog_item = Clone(grBacklogItem);
+
+			backlog_item.backlog = GetStringValue(grBacklogItem.backlog.getDisplayValue());
+
+			backlog_item.state = GetStringValue(grBacklogItem.state.getDisplayValue());
+			backlog_item.status = backlog_item.state;
+
+			backlog_item.opened_by = GetStringValue(grBacklogItem.opened_by.getDisplayValue());
+			backlog_item.sys_created_by = GetStringValue(grBacklogItem.sys_created_by.getDisplayValue());
+			backlog_item.sys_updated_by = GetStringValue(grBacklogItem.sys_updated_by.getDisplayValue());
+			backlog_item.tester = GetStringValue(grBacklogItem.tester.getDisplayValue());
+			backlog_item.owner = GetStringValue(grBacklogItem.owner.getDisplayValue());
+
+
+			delete backlog_item.impact;
+			delete backlog_item.priority;
+			delete backlog_item.made_sla;
+			delete backlog_item.activity_due
+			delete backlog_item.additional_assignee_list;
+			delete backlog_item.approval;
+			delete backlog_item.approval_history; 
+			delete backlog_item.approval_set;
+			delete backlog_item.business_duration; 
+			delete backlog_item.business_service;
+			delete backlog_item.calendar_duration; 
+			delete backlog_item.close_notes;
+			delete backlog_item.closed_at;
+			delete backlog_item.closed_by;
+			delete backlog_item.cmdb_ci;
+			delete backlog_item.comments;
+			delete backlog_item.comments_and_work_notes; 
+			delete backlog_item.company;
+			delete backlog_item.contact_type;
+			delete backlog_item.contract;
+			delete backlog_item.correlation_display;
+			delete backlog_item.correlation_id;
+			delete backlog_item.delivery_plan;
+			delete backlog_item.delivery_task;
+			delete backlog_item.due_date; 
+			delete backlog_item.escalation;
+			delete backlog_item.expected_start; 
+			delete backlog_item.follow_up;
+			delete backlog_item.group_list;
+			delete backlog_item.hierarchical_variables;
+			delete backlog_item.knowledge;
+			delete backlog_item.location;
+			delete backlog_item.parent;
+			delete backlog_item.reassignment_count;
+			delete backlog_item.rejection_goto;
+			delete backlog_item.required_backlog_items;
+			delete backlog_item.route_reason;
+			delete backlog_item.service_offering;
+			delete backlog_item.skills;
+			delete backlog_item.sla_due; 
+			delete backlog_item.sys_class_name;
+			delete backlog_item.sys_domain_path;
+			delete backlog_item.sys_meta;
+			delete backlog_item.sys_mod_count;
+			delete backlog_item.task_effective_number;
+			delete backlog_item.time_worked;
+			delete backlog_item.universal_request;
+			delete backlog_item.upon_approval;
+			delete backlog_item.upon_reject;
+			delete backlog_item.urgency;
+			delete backlog_item.user_input; 
+			delete backlog_item.variable_pool;
+			delete backlog_item.variables;
+			delete backlog_item.watch_list;
+			delete backlog_item.wf_activity;
+			delete backlog_item.work_end; 
+			delete backlog_item.work_notes; 
+			delete backlog_item.work_notes_list;
+			delete backlog_item.work_start; 
+
+			backlog_item._personas = [];
+
+			var aPersonaSysIds = GetArrayValue(backlog_item.personas);
+			for (var nPersona = 0; nPersona < aPersonaSysIds.length; nPersona++)
+			{
+				backlog_item._personas.push(Clone(GetRecord('x_snc_agile_persona',aPersonaSysIds[nPersona])));
+			}
+			delete personas;
+
+			return backlog_item;
+		}
+	}
+
+	return {};
+
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sascha.wildgrube</sys_created_by>
+        <sys_created_on>2025-04-04 14:35:38</sys_created_on>
+        <sys_id>334652c093b02a10af77b4aa6aba10d0</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>AiToolGetBacklogItemDetails</sys_name>
+        <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
+        <sys_update_name>sys_script_include_334652c093b02a10af77b4aa6aba10d0</sys_update_name>
+        <sys_updated_by>sascha.wildgrube</sys_updated_by>
+        <sys_updated_on>2025-04-06 19:43:34</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
+    </sys_script_include>
+</record_update>
