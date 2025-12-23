@@ -1,10 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent">
-    <sn_aia_agent action="INSERT_OR_UPDATE">
-        <agent_type/>
-        <applicability_script/>
-        <compiled_handbook/>
-        <description>Turns requirements (documented in backlog items or stories) into solutions (implemented into scoped applications).</description>
-        <external_agent_configuration/>
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_version">
+    <sn_aia_version action="INSERT_OR_UPDATE">
+        <condition/>
         <instructions>1. Check if the backlog item is in state "Ready".
 1a. If not provide feedback to the user that the backlog item is in the wrong state. Stop the work here.
 1b. Continue.
@@ -51,27 +47,24 @@ Ask the user for confirmation.
 11. Perform Instance Scan checks (using the CodeSanity scan suite) on all affected applications
 
 12. Propose a manual test procedure to validate the implemented solution</instructions>
-        <internal_name>global.x_snc_agenticdev.Agentic Developer</internal_name>
-        <name>Agentic Developer</name>
-        <parent/>
-        <processing_message/>
-        <proficiency/>
-        <record_type>custom</record_type>
-        <role>An expert pro-code and low-code developer on the ServiceNow platform that can turn backlog items into implemented solutions.</role>
-        <source_id/>
-        <strategy display_value="ReAct">f0bff21f9f13c6108f431597d90a1c74</strategy>
-        <sys_class_name>sn_aia_agent</sys_class_name>
+        <state>published</state>
+        <sys_class_name>sn_aia_version</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-04-02 06:27:49</sys_created_on>
+        <sys_created_on>2025-11-27 11:08:32</sys_created_on>
         <sys_domain>global</sys_domain>
-        <sys_id>6cb312db93e06610af77b4aa6aba10b5</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_name>Agentic Developer</sys_name>
+        <sys_id>b318cad03b6db25062bf612c95e45a49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>V1</sys_name>
+        <sys_overrides/>
         <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
-        <sys_update_name>sn_aia_agent_6cb312db93e06610af77b4aa6aba10b5</sys_update_name>
+        <sys_update_name>sn_aia_version_b318cad03b6db25062bf612c95e45a49</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-11-27 11:08:32</sys_updated_on>
-    </sn_aia_agent>
+        <target_id>6cb312db93e06610af77b4aa6aba10b5</target_id>
+        <target_table>sn_aia_agent</target_table>
+        <version_name>V1</version_name>
+        <version_number>1</version_number>
+    </sn_aia_version>
 </record_update>
