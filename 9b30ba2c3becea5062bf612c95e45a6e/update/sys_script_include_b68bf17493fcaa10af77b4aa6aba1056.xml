@@ -26,14 +26,14 @@
         <sys_created_by>sascha.wildgrube</sys_created_by>
         <sys_created_on>2025-04-06 20:32:17</sys_created_on>
         <sys_id>b68bf17493fcaa10af77b4aa6aba1056</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>AiToolSetBacklogItemStateToInDevelopment</sys_name>
         <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
-        <sys_policy>read</sys_policy>
+        <sys_policy/>
         <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
         <sys_update_name>sys_script_include_b68bf17493fcaa10af77b4aa6aba1056</sys_update_name>
-        <sys_updated_by>sascha.wildgrube</sys_updated_by>
-        <sys_updated_on>2025-04-06 20:39:51</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-07 09:17:29</sys_updated_on>
         <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

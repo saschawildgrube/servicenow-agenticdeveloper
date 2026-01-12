@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_version">
+    <sn_aia_version action="INSERT_OR_UPDATE">
+        <condition/>
+        <instructions>Uses the AgenticDeveloper AI Agent to implement backlog items.</instructions>
+        <state>published</state>
+        <sys_class_name>sn_aia_version</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-07 08:14:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5d7968a93b5a3ed062bf612c95e45a52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>V1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
+        <sys_update_name>sn_aia_version_5d7968a93b5a3ed062bf612c95e45a52</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-07 08:14:26</sys_updated_on>
+        <target_id>0b09ac693b5a3ed062bf612c95e45add</target_id>
+        <target_table>sn_aia_usecase</target_table>
+        <version_name>V1</version_name>
+        <version_number>1</version_number>
+    </sn_aia_version>
+</record_update>

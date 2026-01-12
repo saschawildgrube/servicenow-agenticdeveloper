@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_context_profile_promoted_skill">
+    <sys_cs_context_profile_promoted_skill action="INSERT_OR_UPDATE">
+        <condition/>
+        <condition_mode>simple</condition_mode>
+        <context_profile display_value="Now Assist in Virtual Agent (default)">e13840cf77d53110569156391e5a99ba</context_profile>
+        <order>100</order>
+        <skill_id display_value="Agentic Developer">fbaf705d3b12fad062bf612c95e45a3d</skill_id>
+        <sys_class_name>sys_cs_context_profile_promoted_skill</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-07 14:30:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>cd8ff1613b927ed062bf612c95e45a5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
+        <sys_update_name>sys_cs_context_profile_promoted_skill_cd8ff1613b927ed062bf612c95e45a5d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-07 14:30:26</sys_updated_on>
+    </sys_cs_context_profile_promoted_skill>
+</record_update>

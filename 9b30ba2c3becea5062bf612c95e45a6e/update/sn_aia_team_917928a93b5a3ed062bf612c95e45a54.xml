@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_team">
+    <sn_aia_team action="INSERT_OR_UPDATE">
+        <description>The Agentic Development workflow uses the AgenticDeveloper AI Agent to implement requirements documented in backlog items and make actual configuration and code changes.</description>
+        <name>Agentic Development</name>
+        <sys_class_name>sn_aia_team</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-07 08:14:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>917928a93b5a3ed062bf612c95e45a54</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Agentic Development</sys_name>
+        <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
+        <sys_update_name>sn_aia_team_917928a93b5a3ed062bf612c95e45a54</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-07 15:45:33</sys_updated_on>
+    </sn_aia_team>
+</record_update>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="one_api_feature_provider">
+    <one_api_feature_provider action="DELETE">
+        <active>true</active>
+        <feature display_value="c18ed0e9430012106c3603295bb8f2c3">6fded5b793eca610af77b4aa6aba1034</feature>
+        <feature_service display_value="OneExtendGenericProvider">5233278353111110c271ddeeff7b129b</feature_service>
+        <feature_service_factory><![CDATA[(function() { return new global.OneExtendGenericProvider(); })()]]></feature_service_factory>
+        <name>AIA Data Extractor provider</name>
+        <short_description>Auto Generated </short_description>
+        <sys_class_name>one_api_feature_provider</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-03 15:53:05</sys_created_on>
+        <sys_id>2bded5b793eca610af77b4aa6aba1037</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AIA Data Extractor provider</sys_name>
+        <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
+        <sys_update_name>one_api_feature_provider_2bded5b793eca610af77b4aa6aba1037</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-03 15:53:05</sys_updated_on>
+        <type>FDIH Subflow</type>
+        <type_document display_value="Azure OpenAI Chat Completions">a55c1c6f530221106b38ddeeff7b12b1</type_document>
+    </one_api_feature_provider>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</application>
+        <file_path/>
+        <instance_id>a8cbb5133b6b5e540fd412c5e4e45a1f</instance_id>
+        <instance_name>wildyokohama</instance_name>
+        <name>one_api_feature_provider_2bded5b793eca610af77b4aa6aba1037</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="one_api_feature_provider"&gt;
+    &lt;one_api_feature_provider action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;feature display_value="c18ed0e9430012106c3603295bb8f2c3"&gt;6fded5b793eca610af77b4aa6aba1034&lt;/feature&gt;
+        &lt;feature_service display_value="OneExtendGenericProvider"&gt;5233278353111110c271ddeeff7b129b&lt;/feature_service&gt;
+        &lt;feature_service_factory&gt;&lt;![CDATA[(function() { return new global.OneExtendGenericProvider(); })()]]&gt;&lt;/feature_service_factory&gt;
+        &lt;name&gt;AIA Data Extractor provider&lt;/name&gt;
+        &lt;short_description&gt;Auto Generated &lt;/short_description&gt;
+        &lt;sys_class_name&gt;one_api_feature_provider&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-04-03 15:53:05&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2bded5b793eca610af77b4aa6aba1037&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;AIA Data Extractor provider&lt;/sys_name&gt;
+        &lt;sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev"&gt;9b30ba2c3becea5062bf612c95e45a6e&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="AgenticDeveloper WORK IN PROGRESS"&gt;9b30ba2c3becea5062bf612c95e45a6e&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;one_api_feature_provider_2bded5b793eca610af77b4aa6aba1037&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-04-03 15:53:05&lt;/sys_updated_on&gt;
+        &lt;type&gt;FDIH Subflow&lt;/type&gt;
+        &lt;type_document display_value="Azure OpenAI Chat Completions"&gt;a55c1c6f530221106b38ddeeff7b12b1&lt;/type_document&gt;
+    &lt;/one_api_feature_provider&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1748066204</payload_hash>
+        <record_name>AIA Data Extractor provider</record_name>
+        <reverted_from/>
+        <source>5332e6852beb2e109083fe395e91bf9e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-22 10:52:33</sys_created_on>
+        <sys_id>3f322a852beb2e109083fe395e91bf01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198d168a6690000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-22 10:52:33</sys_updated_on>
+        <type>One API Feature Provider</type>
+        <update_guid>fb322a858beb2e10f3cdaba395e94901</update_guid>
+        <update_guid_history>fb322a858beb2e10f3cdaba395e94901:1748066204</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="AIA Data Extractor provider">0f69f4253bda3ed062bf612c95e45a86</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-07 09:24:11</sys_created_on>
+        <sys_db_object display_value="" name="one_api_feature_provider">one_api_feature_provider</sys_db_object>
+        <sys_id>588b0eeebe9045a8971e67c7f54d8240</sys_id>
+        <sys_metadata>2bded5b793eca610af77b4aa6aba1037</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AIA Data Extractor provider</sys_name>
+        <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
+        <sys_scope_delete display_value="">12afee959ab3409981ae85b83735d6b9</sys_scope_delete>
+        <sys_update_name>one_api_feature_provider_2bded5b793eca610af77b4aa6aba1037</sys_update_name>
+        <sys_update_version display_value="one_api_feature_provider_2bded5b793eca610af77b4aa6aba1037">3f322a852beb2e109083fe395e91bf01</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-07 09:24:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

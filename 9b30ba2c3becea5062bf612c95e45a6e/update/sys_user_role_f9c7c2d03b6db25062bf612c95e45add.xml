@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>A user that can use the Agentic Developer AI Agent.</description>
         <elevated_privilege>false</elevated_privilege>
+        <federated_id>LKpaMuS7X/89ULD5XxP9DOKtZHFyn21qeROXuwDwOd0=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_snc_agenticdev.developer</name>

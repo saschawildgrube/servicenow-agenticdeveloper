@@ -54,7 +54,7 @@ Ask the user for confirmation.
         <internal_name>global.x_snc_agenticdev.Agentic Developer</internal_name>
         <name>Agentic Developer</name>
         <parent/>
-        <processing_message/>
+        <processing_message>Turning requirements into solutions</processing_message>
         <proficiency/>
         <record_type>custom</record_type>
         <role>An expert pro-code and low-code developer on the ServiceNow platform that can turn backlog items into implemented solutions.</role>
@@ -65,13 +65,13 @@ Ask the user for confirmation.
         <sys_created_on>2025-04-02 06:27:49</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>6cb312db93e06610af77b4aa6aba10b5</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Agentic Developer</sys_name>
         <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
         <sys_update_name>sn_aia_agent_6cb312db93e06610af77b4aa6aba10b5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-27 11:08:32</sys_updated_on>
+        <sys_updated_on>2026-01-06 15:15:12</sys_updated_on>
     </sn_aia_agent>
 </record_update>

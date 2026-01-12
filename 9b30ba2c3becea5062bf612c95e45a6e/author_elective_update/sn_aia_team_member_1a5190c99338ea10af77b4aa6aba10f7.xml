@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_team_member">
+    <sn_aia_team_member action="DELETE">
+        <agent display_value="Agentic Developer">6cb312db93e06610af77b4aa6aba10b5</agent>
+        <sys_class_name>sn_aia_team_member</sys_class_name>
+        <sys_created_by>sascha.wildgrube</sys_created_by>
+        <sys_created_on>2025-04-07 07:26:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1a5190c99338ea10af77b4aa6aba10f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
+        <sys_update_name>sn_aia_team_member_1a5190c99338ea10af77b4aa6aba10f7</sys_update_name>
+        <sys_updated_by>sascha.wildgrube</sys_updated_by>
+        <sys_updated_on>2025-04-07 07:26:48</sys_updated_on>
+        <team display_value="Implement backlog item">125110c99338ea10af77b4aa6aba1039</team>
+    </sn_aia_team_member>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</application>
+        <file_path/>
+        <instance_id>a8cbb5133b6b5e540fd412c5e4e45a1f</instance_id>
+        <instance_name>wildyokohama</instance_name>
+        <name>sn_aia_team_member_1a5190c99338ea10af77b4aa6aba10f7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_team_member">
+    <sn_aia_team_member action="INSERT_OR_UPDATE">
+        <agent display_value="Agentic Developer">6cb312db93e06610af77b4aa6aba10b5</agent>
+        <sys_class_name>sn_aia_team_member</sys_class_name>
+        <sys_created_by>sascha.wildgrube</sys_created_by>
+        <sys_created_on>2025-04-07 07:26:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1a5190c99338ea10af77b4aa6aba10f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
+        <sys_update_name>sn_aia_team_member_1a5190c99338ea10af77b4aa6aba10f7</sys_update_name>
+        <sys_updated_by>sascha.wildgrube</sys_updated_by>
+        <sys_updated_on>2025-04-07 07:26:48</sys_updated_on>
+        <team display_value="Implement backlog item">125110c99338ea10af77b4aa6aba1039</team>
+    </sn_aia_team_member>
+</record_update>]]></payload>
+        <payload_hash>1453427866</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>5332e6852beb2e109083fe395e91bf9e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-22 10:52:33</sys_created_on>
+        <sys_id>0c422a852beb2e109083fe395e91bf43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198d168a8b40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-22 10:52:33</sys_updated_on>
+        <type>sn_aia_team_member</type>
+        <update_guid>c8422a85efeb2e10889ec98edc482e43</update_guid>
+        <update_guid_history>c8422a85efeb2e10889ec98edc482e43:1453427866</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d1fb28ed3b5a3ed062bf612c95e45a7d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sascha.wildgrube</sys_created_by>
+        <sys_created_on>2026-01-07 08:25:21</sys_created_on>
+        <sys_db_object display_value="" name="sn_aia_team_member">sn_aia_team_member</sys_db_object>
+        <sys_id>9e91f4e3382b45c9bb832c4181164c41</sys_id>
+        <sys_metadata>1a5190c99338ea10af77b4aa6aba10f7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
+        <sys_scope_delete display_value="">12afee959ab3409981ae85b83735d6b9</sys_scope_delete>
+        <sys_update_name>sn_aia_team_member_1a5190c99338ea10af77b4aa6aba10f7</sys_update_name>
+        <sys_update_version display_value="sn_aia_team_member_1a5190c99338ea10af77b4aa6aba10f7">0c422a852beb2e109083fe395e91bf43</sys_update_version>
+        <sys_updated_by>sascha.wildgrube</sys_updated_by>
+        <sys_updated_on>2026-01-07 08:25:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
