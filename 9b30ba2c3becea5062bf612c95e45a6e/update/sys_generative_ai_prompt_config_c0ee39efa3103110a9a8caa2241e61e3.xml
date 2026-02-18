@@ -12,13 +12,13 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c0ee39efa3103110a9a8caa2241e61e3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>a8ba2032a3007110a9a8caa2241e61f2</sys_name>
         <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
         <sys_update_name>sys_generative_ai_prompt_config_c0ee39efa3103110a9a8caa2241e61e3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-07 09:17:29</sys_updated_on>
+        <sys_updated_on>2024-03-14 15:00:00</sys_updated_on>
     </sys_generative_ai_prompt_config>
 </record_update>

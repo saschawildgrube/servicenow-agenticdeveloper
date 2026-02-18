@@ -10,6 +10,7 @@
         <max_auto_executions>10</max_auto_executions>
         <name>Get Definition of Ready</name>
         <output_transformation_strategy>paraphrase</output_transformation_strategy>
+        <post_message/>
         <post_processing_script/>
         <pre_message/>
         <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>

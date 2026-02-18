@@ -54,6 +54,7 @@ Ask the user for confirmation.
         <internal_name>global.x_snc_agenticdev.Agentic Developer</internal_name>
         <name>Agentic Developer</name>
         <parent/>
+        <post_processing_message/>
         <processing_message>Turning requirements into solutions</processing_message>
         <proficiency/>
         <record_type>custom</record_type>
