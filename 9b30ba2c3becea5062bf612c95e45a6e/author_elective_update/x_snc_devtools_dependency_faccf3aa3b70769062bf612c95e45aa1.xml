@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_devtools_dependency">
+    <x_snc_devtools_dependency action="DELETE">
+        <dependency display_value="Now Assist AI Agents" source="sn_aia">32808450431302106c3603295bb8f245</dependency>
+        <documentation_url/>
+        <name>Now Assist AI Agents</name>
+        <package_class>sys_store_app</package_class>
+        <reason/>
+        <repo_url/>
+        <sys_class_name>x_snc_devtools_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-28 12:40:33</sys_created_on>
+        <sys_id>faccf3aa3b70769062bf612c95e45aa1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
+        <sys_update_name>x_snc_devtools_dependency_faccf3aa3b70769062bf612c95e45aa1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-28 16:46:09</sys_updated_on>
+        <versions>5.1.17</versions>
+    </x_snc_devtools_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</application>
+        <file_path/>
+        <instance_id>a8cbb5133b6b5e540fd412c5e4e45a1f</instance_id>
+        <instance_name>wildyokohama</instance_name>
+        <name>x_snc_devtools_dependency_faccf3aa3b70769062bf612c95e45aa1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_devtools_dependency"><x_snc_devtools_dependency action="INSERT_OR_UPDATE"><dependency display_value="Now Assist AI Agents" source="sn_aia">32808450431302106c3603295bb8f245</dependency><documentation_url/><name>Now Assist AI Agents</name><package_class>sys_store_app</package_class><reason/><repo_url/><sys_class_name>x_snc_devtools_dependency</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-28 12:40:33</sys_created_on><sys_id>faccf3aa3b70769062bf612c95e45aa1</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package><sys_policy/><sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope><sys_update_name>x_snc_devtools_dependency_faccf3aa3b70769062bf612c95e45aa1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-28 16:46:09</sys_updated_on><versions>5.1.17</versions></x_snc_devtools_dependency></record_update>]]></payload>
+        <payload_hash>-1153799026</payload_hash>
+        <record_name>Now Assist AI Agents</record_name>
+        <reverted_from/>
+        <source>a380c3c13b3cba5062bf612c95e45aad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-28 16:46:09</sys_created_on>
+        <sys_id>38b5f03e3bf4769062bf612c95e45a35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a2bb675340000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-28 16:46:09</sys_updated_on>
+        <type>Dependency</type>
+        <update_guid>3cb5f03e1df476907e69b72a583ab134</update_guid>
+        <update_guid_history>3cb5f03e1df476907e69b72a583ab134:-1153799026,b1a5b03eabf47690f4ca521173ef8a00:-1307101299,a77dbb2eb5707690168b8122d1e042c4:1534345017</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Now Assist AI Agents">6fbf05a82b0c4b149083fe395e91bf5a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-01 08:17:39</sys_created_on>
+        <sys_db_object display_value="" name="x_snc_devtools_dependency">x_snc_devtools_dependency</sys_db_object>
+        <sys_id>0357e196bf8b4acf800fc313c5c79939</sys_id>
+        <sys_metadata>faccf3aa3b70769062bf612c95e45aa1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Now Assist AI Agents</sys_name>
+        <sys_package display_value="AgenticDeveloper WORK IN PROGRESS" source="x_snc_agenticdev">9b30ba2c3becea5062bf612c95e45a6e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AgenticDeveloper WORK IN PROGRESS">9b30ba2c3becea5062bf612c95e45a6e</sys_scope>
+        <sys_scope_delete display_value="">12afee959ab3409981ae85b83735d6b9</sys_scope_delete>
+        <sys_update_name>x_snc_devtools_dependency_faccf3aa3b70769062bf612c95e45aa1</sys_update_name>
+        <sys_update_version display_value="x_snc_devtools_dependency_faccf3aa3b70769062bf612c95e45aa1">38b5f03e3bf4769062bf612c95e45a35</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-01 08:17:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
